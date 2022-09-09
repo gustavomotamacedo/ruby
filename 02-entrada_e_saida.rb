@@ -1,3 +1,3 @@
 puts "Digite seu nome: "
-idade = gets.chomp
-puts "Olá, " + idade + "!"
+nome = gets.chomp
+puts "Olá, " + nome + "!"

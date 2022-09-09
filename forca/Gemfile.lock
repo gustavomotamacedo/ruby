@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    lerolero_generator (1.0.1)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  lerolero_generator
+
+BUNDLED WITH
+   2.3.18

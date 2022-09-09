@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
+    public_suffix (5.0.0)
+    resource_accessor (1.2.7)
+    translator-srt (0.0.1)
+      resource_accessor
+    wikipedia-client (1.16.0)
+      addressable (~> 2.7)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  translator-srt
+  wikipedia-client (~> 1.16)
+
+BUNDLED WITH
+   2.3.18
