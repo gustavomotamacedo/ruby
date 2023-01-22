@@ -2,11 +2,11 @@ require 'cmath'
 
 puts "Digite os valores de a, b e c: "
 puts "a:"
-a = gets.chomp.to_f
+a = gets.to_f
 puts "b"
-b = gets.chomp.to_f
+b = gets.to_f
 puts "c"
-c = gets.chomp.to_f
+c = gets.to_f
 delta = (b**2) - (4 * a * c)
 bhaskara1 = (-b + CMath.sqrt(delta)) / (2 * a)
 bhaskara2 = (-b - CMath.sqrt(delta)) / (2 * a)

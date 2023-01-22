@@ -1,7 +1,7 @@
 i = 0
 t = [1, 1]
 print "Digite quantos números terá a sequência: "
-limite = gets.chomp.to_i
+limite = gets.to_i
 
 print "\t\t"
 while i < limite

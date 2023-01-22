@@ -1,5 +1,5 @@
 puts "Digite a velocidade registrada do veículo: "
-vel = gets.chomp.to_f
+vel = gets.to_f
 if vel > 80 then
   multa = (vel - 80) * 5
   puts "Este motorista recebeu uma multa!"

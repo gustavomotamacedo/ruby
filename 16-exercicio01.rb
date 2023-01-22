@@ -7,7 +7,7 @@ class Cachorro
     @raca = raca
   end
 
-  def latir(latido = "au au!")
+  def latir(latido = "au au!") #default caso não haja nenhum valor
     latido
   end
 end
